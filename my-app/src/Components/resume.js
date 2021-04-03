@@ -1,7 +1,9 @@
 function Resume(){
-    return(
-        <div className="padding text-center w-75 ml-auto mr-auto fontDela">
-            <h1>Resume</h1>
+    return(     
+
+    <div className="padding text-center w-75 ml-auto mr-auto fontDela">
+        <div id="resume">
+            <h1 className="pt-5">Resume</h1>
 
             <div>
                 <h2 className="pt-5">Skills</h2>
@@ -84,6 +86,8 @@ function Resume(){
             </div>
 
         </div>
+        </div>
+        
         
     )
 }

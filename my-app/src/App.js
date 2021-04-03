@@ -6,11 +6,11 @@ import AboutMe from './Components/aboutMeInfo';
 import Resume from './Components/resume';
 function App() {
   return (
-  <div className="bgImg">
+    <div className="bgImg">
       <Header />
       <AboutMe />
       <Resume />
-  </div>
+    </div>
   );
 }
 
