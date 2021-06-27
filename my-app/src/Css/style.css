@@ -1,23 +1,39 @@
 
 body, html{
     height: 100%;
-     margin:0;
+    margin:0;
 }
 
 .bgImg{
     position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
-    background-image: url('../img//background1.jpg');
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    overflow: auto;
+    background-image: url('../img/new.png');
     background-position: center;
     background-size: cover;
 }
 
+.pictureWidth{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fontLightGrey{
+    color: #C9B4B4;
+}
+
+.profilePicture{
+    width: 450px;
+    height: 550px;
+    border-radius: 30%;  
+}
+
 .padding{
-    padding-top: 300px;
+    padding-top: 140px;
 
 }
 
@@ -36,7 +52,7 @@ div{
 }
 .fontTrainOne{
     font-family: 'Dela Gothic One', cursive;
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .fontDela{
