@@ -2,7 +2,7 @@ function AboutMe() {
   
     return(
         <div id="About">
-            <div className="padding">
+            <div className="marginForIntro">
                 <div className='text-center'>
                     <div>
                         <p className='fontRoboto colorWhite display-3'>Hello, I am Scott,</p>
